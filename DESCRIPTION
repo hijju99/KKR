@@ -1,17 +1,19 @@
 Package: KKR
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Kernel Ridge Regression with Gaussian Kernel
 Version: 0.1.0
-Authors@R: c(
-    person(
-      "Jane", "Doe",
-      email = "jane@example.com",
-      role = c("aut", "cre")
-    )
-  )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Authors@R: 
+  person(given = "huiju",
+         family = "lee",
+         role = c("aut", "cre"),
+         email = "lhjoo1011@gmail.com")
+Description:
+  This package implements Kernel Ridge Regression (KRR) using 
+  the Gaussian (RBF) kernel. The functions krr_fit() and 
+  krr_predict() allow users to fit KRR models and make 
+  predictions on new data. Developed as part of Assignment 2 
+  for the Multivariate Data Analysis II course.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
